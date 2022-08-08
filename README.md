@@ -11,6 +11,7 @@ This package was solely created to migrate CHEF's database during CHEF's transit
 
 * pg
 * winston
+* keycloak
 
 ### Installing
 
