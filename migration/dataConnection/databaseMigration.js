@@ -153,7 +153,13 @@ class DatabaseMigration {
             delete fetchedUser.keycloakId;
             if (attributes.idir_user_guid) {
               fetchedUser['idirGUID'] = attributes.idir_user_guid&&attributes.idir_user_guid[0];
-            } 
+            }
+            if(attributes.basic_bceid_user_guid) {
+              fetchedUser['basicBceidGuid'] = attributes.basic_bceid_user_guid&&attributes.basic_bceid_user_guid[0];
+            }
+            if(attributes.business_bceid_user_guid) {
+              fetchedUser['businessBceidGuid'] = attributes.business_bceid_user_guid&&attributes.business_bceid_user_guid[0];
+            }
             return Object.values(fetchedUser);   
           } 
         })

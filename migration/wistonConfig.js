@@ -11,6 +11,8 @@ module.exports = winston.createLogger({
     //
     new winston.transports.File({ filename: config.get('logs.errorLogLocation'), level: 'error' }),
     new winston.transports.File({ filename: config.get('logs.otherLogLocation'), level: 'info' }),
+    new winston.transports.Console({ filename: config.get('logs.otherLogLocation'), level: 'info' }),
+    new winston.transports.Console({ filename: config.get('logs.otherLogLocation'), level: 'info' }),
   ],
 });
 
