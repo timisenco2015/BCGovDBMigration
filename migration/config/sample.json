@@ -1,0 +1,29 @@
+{
+  "sourcedb": {
+    "database": "",
+    "host": "",
+    "port": "",
+    "username": "",
+    "password":""
+  },
+  "destinationdb": {
+    "database": "",
+    "host": "",
+    "port": "",
+    "username": "",
+    "password":""
+  },
+  "keycloak": {
+    "clientId": "",
+    "realm": "",
+    "serverUrl": "",
+    "clientSecret": ""
+  },
+  "beforeTableNames":[],
+  "afterTableNames":[],
+  "logs":{
+    "errorLogLocation":"",
+    "otherLogLocation":""
+  }
+  
+}
