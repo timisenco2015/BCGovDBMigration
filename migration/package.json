@@ -1,0 +1,17 @@
+{
+  "name": "database-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keycloak/keycloak-admin-client": "^19.0.1",
+    "config": "^3.3.7",
+    "pg": "^8.7.3",
+    "winston": "^3.8.1"
+  }
+}
