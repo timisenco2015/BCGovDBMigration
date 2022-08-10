@@ -19,8 +19,7 @@
     "serverUrl": "",
     "clientSecret": ""
   },
-  "beforeTableNames":[],
-  "afterTableNames":[],
+  "tableNames":[],
   "logs":{
     "errorLogLocation":"",
     "otherLogLocation":""
