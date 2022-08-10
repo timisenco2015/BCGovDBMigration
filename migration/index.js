@@ -16,7 +16,6 @@ import ('@keycloak/keycloak-admin-client').then(KcAdminClient=>{
  
     const users = await kcAdminClient.users.find();
     let reducedUsers = users.map(user=>({'id':user.id, 'attributes':user.attributes}));
-    await databaseMigration.truncateTables();
     await databaseMigration.migrate(reducedUsers);
     
    
